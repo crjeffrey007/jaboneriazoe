@@ -3686,6 +3686,7 @@ a.text-theme:hover,
 .vs-header {
   position: relative;
   z-index: 41;
+  background: #fcf8dc;
 }
 
 .header-logo {
@@ -3698,7 +3699,7 @@ a.text-theme:hover,
   top: -100%;
   right: 0;
   left: 0;
-  background-color: var(--white-color);
+  background-color: #fcf8dc;
   transition: all ease 0.8s;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07);
 }
@@ -3712,7 +3713,7 @@ a.text-theme:hover,
   font-family: var(--body-font);
   font-weight: 600;
   font-size: 14px;
-  color: var(--title-color);
+  color: #7c5a66;
   text-transform: uppercase;
   /* Extra large devices */
 }
