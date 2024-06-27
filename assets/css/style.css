@@ -4089,7 +4089,7 @@ a.text-theme:hover,
   }
 }
 .header-layout2 .will-sticky .menu-inner {
-  background-color: var(--white-color);
+  background-color: #fcf8dc;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07);
 }
 
