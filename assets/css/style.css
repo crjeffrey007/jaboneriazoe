@@ -5963,9 +5963,10 @@ blockquote.vs-quote cite:before {
 }
 
 .hero-layout2 {
-  background-image: linear-gradient(to top, #fcf2ee 40%, transparent 100%);
+  background: url('assets/img/hero/hero-background.jpg') no-repeat center center/cover;
   position: relative;
   overflow: hidden;
+  padding: 60px 0;
 }
 .hero-layout2 .hero-inner {
   position: relative;
@@ -5987,6 +5988,8 @@ blockquote.vs-quote cite:before {
   padding: 120px 0 90px 0;
   position: relative;
   z-index: 1;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .hero-layout2 .hero-flower {
   position: absolute;
