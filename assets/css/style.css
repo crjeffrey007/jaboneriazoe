@@ -12310,7 +12310,7 @@ blockquote.vs-quote cite:before {
             text-align: center;
             border-radius: 50%;
             background-color: #232b32;
-            border: 2px solid white;
+            border: 2px solid #bbbbbb;
             color: white;
             font-size: 24px;
             transition: background-color 0.3s ease, color 0.3s ease;
