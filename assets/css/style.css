@@ -12317,6 +12317,6 @@ blockquote.vs-quote cite:before {
         }
 
         .social-icons a:hover {
-            background-color: #232b32; /* Cambia el fondo al pasar el cursor */
+            background-color: #9a563b; /* Cambia el fondo al pasar el cursor */
             color: white; /* Cambia el color del ícono al pasar el cursor */
             border: 2px solid #bbbbbb;        }
