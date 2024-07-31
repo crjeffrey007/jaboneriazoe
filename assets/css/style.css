@@ -12301,3 +12301,21 @@ blockquote.vs-quote cite:before {
   }
 }
 /*# sourceMappingURL=style.css.map */
+.social-icons a {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            margin: 0 10px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: #1e0707; /* Cambia este color según sea necesario */
+            color: white;
+            font-size: 24px;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            background-color: #ffa900; /* Cambia este color según sea necesario */
+            color: black;
+        }
