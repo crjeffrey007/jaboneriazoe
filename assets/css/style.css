@@ -2336,7 +2336,7 @@ textarea.is-invalid {
 .social-style4 a,
 .social-style1 a {
   display: inline-block;
-  color: var(--white-color);
+  color: white;
   line-height: 1;
   margin-right: 12px;
   font-size: 14px;
@@ -2347,25 +2347,25 @@ textarea.is-invalid {
 }
 .social-style4 a:hover,
 .social-style1 a:hover {
-  color: var(--title-color);
+  color: white;
 }
 .social-style4 .social-title,
 .social-style1 .social-title {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 500;
-  color: var(--white-color);
+  color: white;
   display: inline-block;
   margin-right: 15px;
   letter-spacing: 0.03em;
 }
 
 .social-style1 {
-  background-color: #2d353c;
+  background-color: white;
   padding: 10px 25px;
 }
 .social-style1 a:hover {
-  color: var(--theme-color);
+  color: white;
 }
 
 .social-style5 a,
