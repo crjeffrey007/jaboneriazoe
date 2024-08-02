@@ -1366,7 +1366,7 @@ textarea.is-invalid {
 }
 .vs-btn.style6 {
   background-color: #323c45;
-  color: #ffffff;
+  color: #fcf8dc;
   padding: 5px 20px 5px 5px;
 }
 .vs-btn.style6 i {
@@ -1380,7 +1380,8 @@ textarea.is-invalid {
   text-align: center;
 }
 .vs-btn.style6:hover {
-  color: var(--white-color);
+  color: #fcf8dc;
+  background-color: #9a563b;
 }
 .vs-btn.style7 {
   padding: 23px 37px;
