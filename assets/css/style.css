@@ -976,7 +976,7 @@ textarea.is-invalid {
   font-size: 18px;
   z-index: 1;
   color: var(--white-color);
-  background-color: var(--theme-color);
+  background-color: #323c45;
   border-radius: 50%;
 }
 .vs-menu-wrapper .vs-menu-toggle:hover {
@@ -1365,16 +1365,16 @@ textarea.is-invalid {
   background-color: var(--white-color);
 }
 .vs-btn.style6 {
-  background-color: var(--white-color);
-  color: var(--theme-color);
+  background-color: #323c45;
+  color: #ffffff;
   padding: 5px 20px 5px 5px;
 }
 .vs-btn.style6 i {
   width: 50px;
   height: 50px;
   line-height: 50px;
-  background-color: var(--theme-color);
-  color: var(--white-color);
+  background-color: #fcf8dc;
+  color: #323c45;
   margin-right: 10px;
   font-size: 18px;
   text-align: center;
