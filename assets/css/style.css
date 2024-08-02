@@ -1379,9 +1379,8 @@ textarea.is-invalid {
   font-size: 18px;
   text-align: center;
 }
-.vs-btn.style6:hover {
+.vs-btn.style6:hover:after {
   color: #fcf8dc;
-  background-color: #9a563b;
 }
 .vs-btn.style7 {
   padding: 23px 37px;
