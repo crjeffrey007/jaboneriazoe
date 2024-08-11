@@ -317,21 +317,23 @@
                 <div class="form-style2">
                     <h2 class="form-title">Book Appointment</h2>
                     <p class="form-label">Today For Free</p>
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Email Address">
-                    </div>
-                    <div class="form-group">
-                        <input type="date">
-                    </div>
-                    <div class="form-group">
-                        <input type="time">
-                    </div>
-                    <div class="form-group">
-                        <button class="vs-btn" type="submit">Make Appointment</button>
-                    </div>
+                <!-- modify this form HTML and place wherever you want your form -->
+                   <form action="https://formspree.io/f/xldrrybp" method="POST">
+		     <label>
+                        Nombre:
+                        <input type="name" name="name">
+                    </label>
+		    <label>
+                        Email:
+                        <input type="email" name="email">
+                    </label>
+                    <label>
+                       Mensaje:
+                       <textarea name="message"></textarea>
+                    </label>
+                   <!-- your other form fields go here -->
+                   <button type="submit">Enviar</button>
+                 </form>
                 </div>
             </div>
             <div class="col-lg-6 col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
