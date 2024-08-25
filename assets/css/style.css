@@ -1251,7 +1251,7 @@ textarea.is-invalid {
 }
 /*------------------- 3.2. Buttons -------------------*/
 .vs-btn {
-  background-color: var(--theme-color);
+  background-color: #323c45;
   color: var(--white-color);
   font-size: 14px;
   font-weight: 700;
@@ -8014,7 +8014,7 @@ blockquote.vs-quote cite:before {
 }
 /*------------------- 4.12. Price Plan  -------------------*/
 .package-style1 {
-  background-color: #323c45;
+  background-color: #ffffff00;
   padding: 22px 40px 45px 40px;
   margin-bottom: 30px;
   position: relative;
@@ -8127,7 +8127,7 @@ blockquote.vs-quote cite:before {
   height: 12px;
   margin: -6px 0 0 -6px;
   border-radius: inherit;
-  background-color: var(--theme-color);
+  background-color: #323c45;
   opacity: 0.78;
 }
 .package-style1 .package-img {
