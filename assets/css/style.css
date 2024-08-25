@@ -8014,7 +8014,7 @@ blockquote.vs-quote cite:before {
 }
 /*------------------- 4.12. Price Plan  -------------------*/
 .package-style1 {
-  background-color: var(--white-color);
+  background-color: #323c45;
   padding: 22px 40px 45px 40px;
   margin-bottom: 30px;
   position: relative;
@@ -8026,7 +8026,7 @@ blockquote.vs-quote cite:before {
   top: 0;
   width: 100px;
   height: 100px;
-  background-color: var(--theme-color);
+  background-color: #323c45;
   z-index: -1;
   transition: all ease 0.6s;
   opacity: 0;
@@ -8172,13 +8172,13 @@ blockquote.vs-quote cite:before {
   letter-spacing: 0;
 }
 .package-style1.layout2 .vs-btn:after, .package-style1.layout2 .vs-btn:before {
-  background-color: var(--smoke-color);
+  background-color: #323c45;
 }
 .package-style1.layout2 .package-price {
-  color: var(--title-color);
+  color: #323c45;
 }
 .package-style1.layout2:hover .package-price, .package-style1.layout2.active .package-price {
-  color: var(--theme-color);
+  color: #323c45;
 }
 .package-style1.layout2:hover .vs-btn, .package-style1.layout2.active .vs-btn {
   background-color: var(--title-color);
