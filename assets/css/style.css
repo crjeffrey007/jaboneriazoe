@@ -4086,10 +4086,12 @@ a.text-theme:hover,
     left: 0;
     right: 0;
     top: 0;
+    background: #fbf9dc;
   }
+    
 }
 .header-layout2 .will-sticky .menu-inner {
-  background-color: #fcf8dc;
+  background-color: #fbf9dc;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07);
 }
 
