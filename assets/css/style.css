@@ -8178,10 +8178,10 @@ blockquote.vs-quote cite:before {
   color: #323c45;
 }
 .package-style1.layout2:hover .package-price, .package-style1.layout2.active .package-price {
-  color: #323c45;
+  color: #3330;
 }
 .package-style1.layout2:hover .vs-btn, .package-style1.layout2.active .vs-btn {
-  background-color: var(--title-color);
+  background-color: #fbf9dc;
 }
 
 .slick-slide .package-style1:before {
