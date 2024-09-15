@@ -1660,7 +1660,7 @@ textarea.is-invalid {
 }
 .scroll-btn i {
   display: inline-block;
-  background-color: var(--theme-color);
+  background-color: #323c45;
   color: var(--white-color);
   text-align: center;
   font-size: 16px;
@@ -1812,7 +1812,7 @@ textarea.is-invalid {
   fill: currentColor;
 }
 .circle-btn.style2 {
-  background-color: var(--theme-color);
+  background-color: #323c45;
   color: var(--white-color);
 }
 .circle-btn.style2 .btn-icon {
@@ -3517,7 +3517,7 @@ a.text-theme:hover,
   bottom: 0;
   width: 50px;
   height: 2px;
-  background-color: var(--theme-color);
+  background-color: #b7b7b8;
 }
 .footer-widget .recent-post {
   align-items: center;
@@ -3584,7 +3584,7 @@ a.text-theme:hover,
   border: none;
   max-width: 100%;
   padding: 0 0 0 13px;
-  color: var(--body-color);
+  color: #b7b7b8;
   margin-bottom: 23px;
   text-transform: uppercase;
 }
@@ -4204,7 +4204,7 @@ a.text-theme:hover,
   font-weight: 500;
 }
 .copyright-text a {
-  color: var(--theme-color);
+  color: #b7b7b8;
   text-transform: uppercase;
 }
 .copyright-text a:hover {
@@ -12323,3 +12323,18 @@ blockquote.vs-quote cite:before {
             color: white; /* Cambia el color del ícono al pasar el cursor */
             border: 2px solid #bbbbbb;
         }
+
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    color: #b7b7b8;
+}
+
+.fa-phone-alt:before {
+    content: "\f879";
+    color: #b7b7b8;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    color: #b7b7b8;
+}
