@@ -12339,6 +12339,11 @@ blockquote.vs-quote cite:before {
     color: #b7b7b8;
 }
 
+.fa-headset:before {
+    content: "\f590";
+    color: #242b31;
+}
+
 .map-container {
         width: 100%;
         height: 200px; /* Tamaño reducido */
