@@ -1409,7 +1409,7 @@ textarea.is-invalid {
   height: var(--icon-size, 50px);
   line-height: var(--icon-size, 50px);
   display: inline-block;
-  background-color: var(--theme-color);
+  background-color: #323c45;
   color: var(--white-color);
   margin-left: 15px;
   font-size: 18px;
@@ -7117,7 +7117,7 @@ blockquote.vs-quote cite:before {
 }
 
 .quote-text2 {
-  border-left: 3px solid var(--theme-color);
+  border-left: 3px solid #323c45;
   background-image: linear-gradient(to right, rgba(253, 230, 216, 0.79) 0%, rgba(252, 243, 239, 0) 100%);
   padding: 10px 0 10px 15px;
   margin: 25px 0 25px 0;
