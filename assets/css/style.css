@@ -12367,3 +12367,11 @@ blockquote.vs-quote cite:before {
     max-width: 100%;
     display: block;
 }
+
+.half-size-video {
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; /* Centrar el video */
+}
