@@ -12360,3 +12360,10 @@ blockquote.vs-quote cite:before {
             height: 150px; /* Reducido aún más en móviles */
         }
     }
+
+.responsive-video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
