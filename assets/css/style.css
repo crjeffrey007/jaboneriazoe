@@ -12369,7 +12369,7 @@ blockquote.vs-quote cite:before {
 }
 
 .half-size-video {
-    width: 75%;
+    width: 50%;
     height: auto;
     max-width: 100%;
     display: block;
