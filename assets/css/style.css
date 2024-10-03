@@ -1,3 +1,4 @@
+
 /*
 Template Name: Wellnez
 Template URL: https://html.vecurosoft.com/wellnez
@@ -4571,20 +4572,29 @@ a.text-theme:hover,
   overflow: hidden;
   position: relative;
   background-color: var(--smoke-color);
-  background-size: 100% auto;
-  background-position: top center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: scroll; /* Desactiva cualquier efecto de parallax */
+  transform: none; /* Asegúrate de que no haya transformaciones aplicadas */
+  transition: none; /* Desactiva cualquier transición que pueda estar causando el efecto de zoom */
   /* Hight Resoulation devices */
 }
 @media (min-width: 1922px) {
   .breadcumb-wrapper {
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: scroll; /* Desactiva cualquier efecto de parallax */
+    transform: none; /* Asegúrate de que no haya transformaciones aplicadas */
+    transition: none; /* Desactiva cualquier transición que pueda estar causando el efecto de zoom */
   }
 }
 @media (max-width: 1850px) {
   .breadcumb-wrapper {
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
+    background-position: center;
+
   }
 }
 
