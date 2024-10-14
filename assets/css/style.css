@@ -12434,14 +12434,14 @@ blockquote.vs-quote cite:before {
 
 .hero-slider-inner {
     display: flex;
-    width: 500%; /* Hace que los slides ocupen el 100% cada uno */
+    width: calc(100vw * 5); /* Hace que los slides ocupen todo el espacio */
     height: 100%;
-    animation: slide-animation 25s infinite;
+    animation: infinite-slider 30s linear infinite; /* Slider infinito con transiciones suaves */
 }
 
 .hero-slide {
-    min-width: 100vw; /* Ancho total del viewport */
-    height: 100vh; /* Altura total del viewport */
+    min-width: 100vw; /* Cada imagen cubre todo el ancho del viewport */
+    height: 100vh; /* Cada imagen cubre todo el alto del viewport */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -12489,15 +12489,15 @@ blockquote.vs-quote cite:before {
     }
 }
 
-/* Slider Animation */
-@keyframes slide-animation {
+/* Animación del Slider Infinito */
+@keyframes infinite-slider {
     0% { transform: translateX(0); }
-    20% { transform: translateX(0); }
-    25% { transform: translateX(-100%); }
-    45% { transform: translateX(-100%); }
-    50% { transform: translateX(-200%); }
-    70% { transform: translateX(-200%); }
-    75% { transform: translateX(-300%); }
-    95% { transform: translateX(-300%); }
-    100% { transform: translateX(0); }
+    20% { transform: translateX(0); } /* Mantiene la primera imagen */
+    25% { transform: translateX(-100vw); }
+    45% { transform: translateX(-100vw); } /* Mantiene la segunda imagen */
+    50% { transform: translateX(-200vw); }
+    70% { transform: translateX(-200vw); } /* Mantiene la tercera imagen */
+    75% { transform: translateX(-300vw); }
+    95% { transform: translateX(-300vw); } /* Mantiene la cuarta imagen */
+    100% { transform: translateX(-400vw); } /* Llega a la quinta imagen */
 }
