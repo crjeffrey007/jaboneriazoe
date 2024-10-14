@@ -12425,24 +12425,28 @@ blockquote.vs-quote cite:before {
 /* Hero Slider Section */
 .hero-slider {
     position: relative;
-    width: 100%;
+    width: 100vw; /* Ancho total de la ventana */
+    height: 100vh; /* Alto total de la ventana */
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-slider-inner {
     display: flex;
-    flex-wrap: nowrap;
+    width: 500%; /* Hace que los slides ocupen el 100% cada uno */
+    height: 100%;
     animation: slide-animation 25s infinite;
 }
 
 .hero-slide {
-    min-width: 100%;
-    height: 100vh;
+    min-width: 100vw; /* Ancho total del viewport */
+    height: 100vh; /* Altura total del viewport */
     background-size: cover;
     background-position: center;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Texto alineado a la izquierda */
     align-items: center;
     filter: brightness(0.7) saturate(1.2); /* Mejor calidad visual */
     transition: all 0.5s ease-in-out;
@@ -12453,11 +12457,15 @@ blockquote.vs-quote cite:before {
 }
 
 /* Texto del Slider */
+.slide-content {
+    margin-left: 5%; /* Margen para alinear el texto a la izquierda */
+}
+
 .slide-content h1,
 .slide-content h3 {
     color: white;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Sombras negras */
-    text-align: center;
+    text-align: left; /* Texto alineado a la izquierda */
     margin: 0;
 }
 
