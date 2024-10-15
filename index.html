@@ -59,13 +59,32 @@
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-<!-- Owl Carousel CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-
-<!-- Owl Carousel JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $(".custom-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
+});
+</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0JT4032WV"></script>
@@ -387,27 +406,82 @@
 </section>
 
 <!--==============================
-    Product Area
-    ==============================-->
-    <section class="vs-product-wrapper">
-        <div class="outer-wrap3">
-            <div class="container">
-                <div class="row gx-60">
-                    <div class="col-lg-12 col-xl-12 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="vs-sort-bar">
-
-                        </div>
-                        <div class="row">
-                         <div id="my-store-107067508"></div>
-                            <div>
-                              <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?107067508&data_platform=code&data_date=2024-08-05" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-107067508");</script>
-                            </div>
-                        </div>
+    Custom Product Carousel
+==============================-->
+<section class="custom-product-carousel space-top" style="margin-top: 0px;">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-auto">
+                <h2 class="custom-sec-title mb-n2">Productos</h2>
+            </div>
+            <div class="col align-self-end">
+                <div class="custom-sec-line pb-1"></div>
+            </div>
+        </div>
+        <div class="row custom-carousel owl-carousel owl-theme">
+            <div class="item">
+                <div class="custom-product">
+                    <div class="custom-product-img">
+                        <a href="https://www.jaboneriazoe.com/productos.html#!/Jabon-de-Carbon-Activado/p/686133305">
+                            <img src="assets/img/about/j-carbon.jpg" alt="Jabón de Carbón Activado" class="w-100">
+                        </a>
+                    </div>
+                    <div class="custom-product-title">
+                        <h3><a class="text-inherit" href="https://www.jaboneriazoe.com/productos.html#!/Jabon-de-Carbon-Activado/p/686133305">Jabón de Carbón</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="custom-product">
+                    <div class="custom-product-img">
+                        <a href="https://www.jaboneriazoe.com/productos.html#!/Jabon-de-Arroz/p/686033079">
+                            <img src="assets/img/about/j-arroz.jpg" alt="Jabón de Arroz" class="w-100">
+                        </a>
+                    </div>
+                    <div class="custom-product-title">
+                        <h3><a class="text-inherit" href="https://www.jaboneriazoe.com/productos.html#!/Jabon-de-Arroz/p/686033079">Jabón de Arroz</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="custom-product">
+                    <div class="custom-product-img">
+                        <a href="https://www.jaboneriazoe.com/productos.html#!/Jabon-de-Avena/p/686118951">
+                            <img src="assets/img/about/j-avena.jpg" alt="Jabón de Avena" class="w-100">
+                        </a>
+                    </div>
+                    <div class="custom-product-title">
+                        <h3><a class="text-inherit" href="https://www.jaboneriazoe.com/productos.html#!/Jabon-de-Avena/p/686118951">Jabón de Avena</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="custom-product">
+                    <div class="custom-product-img">
+                        <a href="https://www.jaboneriazoe.com/productos.html#!/Jabon-de-Arbol-de-Te/p/702958010">
+                            <img src="assets/img/about/j-arbol-te.jpg" alt="Jabón de Árbol de Té" class="w-100">
+                        </a>
+                    </div>
+                    <div class="custom-product-title">
+                        <h3><a class="text-inherit" href="https://www.jaboneriazoe.com/productos.html#!/Jabon-de-Arbol-de-Te/p/702958010">Jabón de Árbol de Té</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="custom-product">
+                    <div class="custom-product-img">
+                        <a href="https://www.jaboneriazoe.com/productos.html#!/Crema-Corporal/p/703044598">
+                            <img src="assets/img/about/crema-zoe.jpeg" alt="Crema Corporal" class="w-100">
+                        </a>
+                    </div>
+                    <div class="custom-product-title">
+                        <h3><a class="text-inherit" href="https://www.jaboneriazoe.com/productos.html#!/Crema-Corporal/p/703044598">Crema Corporal</a></h3>
                     </div>
                 </div>
             </div>
         </div>
-    </section><!--==============================
+    </div>
+</section>
 <!--==============================
   FAQ Area
     ==============================-->
