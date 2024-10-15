@@ -957,7 +957,7 @@ textarea.is-invalid {
   padding-top: 40px;
   display: block;
   text-align: center;
-  background-color: rgba(154, 86, 58, 0.1);
+  background-color: rgb(251 249 220);
 }
 .vs-menu-wrapper .mobile-logo img {
   max-width: 220px;
