@@ -889,3 +889,59 @@
   
 
 })(jQuery);
+
+
+/* Product Carousel Section */
+.product-carousel {
+    position: relative;
+}
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 33.33%; /* Tres elementos visibles al mismo tiempo */
+    text-align: center;
+    padding: 15px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.05); /* Efecto hover en las imágenes */
+}
+
+.carousel-item h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Responsividad */
+@media (max-width: 992px) {
+    .carousel-item {
+        min-width: 50%; /* Dos productos visibles en pantallas medianas */
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        min-width: 100%; /* Un producto visible en pantallas pequeñas */
+    }
+}
