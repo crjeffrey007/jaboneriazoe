@@ -12502,3 +12502,45 @@ blockquote.vs-quote cite:before {
     100% { transform: translateX(-400vw); } /* Llega a la quinta imagen */
 }
 
+.custom-product-carousel .custom-sec-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.custom-product-carousel .custom-sec-line {
+    height: 2px;
+    background-color: #333;
+    width: 100%;
+}
+
+.custom-product-carousel .custom-product {
+    text-align: center;
+    margin: 15px;
+}
+
+.custom-product-carousel .custom-product-img img {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-product-carousel .custom-product-img img:hover {
+    transform: scale(1.05);
+}
+
+.custom-product-carousel .custom-product-title {
+    margin-top: 15px;
+}
+
+.custom-product-carousel .custom-product-title h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.custom-product-carousel .custom-product-title a {
+    text-decoration: none;
+}
+
+.custom-product-carousel .custom-product-title a:hover {
+    color: #007bff;
+}
