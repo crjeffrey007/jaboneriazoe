@@ -12501,3 +12501,37 @@ blockquote.vs-quote cite:before {
     95% { transform: translateX(-300vw); } /* Mantiene la cuarta imagen */
     100% { transform: translateX(-400vw); } /* Llega a la quinta imagen */
 }
+
+.carousel-container {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .carousel {
+        display: flex;
+        gap: 20px;
+        animation: scroll 10s linear infinite;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        max-width: 250px; /* Ajusta el tamaño máximo de las imágenes */
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .carousel-item img {
+            max-width: 150px;
+        }
+    }
