@@ -12560,3 +12560,52 @@ blockquote.vs-quote cite:before {
             gap: 15px;
         }
     }
+
+/* General */
+.call-to-action {
+    position: relative;
+    background-image: url('assets/img/about/j-zoe-2.jpg'); /* Fallback por si el efecto JS no carga */
+    background-size: cover;
+    background-attachment: fixed; /* Efecto parallax */
+    background-position: center;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    padding: 100px 20px;
+}
+
+/* Filtro de color */
+.call-to-action::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0, 123, 255, 0.5), rgba(255, 99, 71, 0.5)); /* Cambia colores si lo deseas */
+    mix-blend-mode: overlay;
+    z-index: 1;
+}
+
+/* Asegurar que el contenido esté encima */
+.call-to-action > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Animación en hover para botones */
+.vs-btn {
+    transition: all 0.3s ease;
+}
+
+.vs-btn:hover {
+    transform: scale(1.1);
+    background-color: #ff6347; /* Cambia el color si lo deseas */
+    color: #fff;
+}
+
+/* Parallax (si el navegador no soporta background-attachment: fixed) */
+@media (max-width: 768px) {
+    .call-to-action {
+        background-attachment: scroll;
+    }
+}
