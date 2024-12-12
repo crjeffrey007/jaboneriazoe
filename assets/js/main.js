@@ -841,13 +841,6 @@
   });
 
 
-document.addEventListener('scroll', function() {
-    const section = document.querySelector('.call-to-action');
-    if (section) { // Asegúrate de que el elemento existe
-        const offset = window.pageYOffset;
-        section.style.backgroundPositionY = offset * 0.5 + 'px';
-    }
-});
 
   /*---------- 20. Date & Time Picker ----------*/
   // Time And Date Picker
