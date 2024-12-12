@@ -841,8 +841,13 @@
   });
 
 
-
-
+document.addEventListener('scroll', function() {
+    const section = document.querySelector('.call-to-action');
+    if (section) { // Asegúrate de que el elemento existe
+        const offset = window.pageYOffset;
+        section.style.backgroundPositionY = offset * 0.5 + 'px';
+    }
+});
 
   /*---------- 20. Date & Time Picker ----------*/
   // Time And Date Picker
@@ -870,23 +875,6 @@
     hours12: false,
     step: 10
   });
-
-document.addEventListener('scroll', function() {
-    const section = document.querySelector('.call-to-action');
-    const offset = window.pageYOffset;
-    section.style.backgroundPositionY = offset * 0.5 + 'px';
-});
-
-  /*----------- 21. Accordion Class Toggler ----------*/
-  $(".accordion-button").on("click", function () {
-    let btn = $(this).closest(".accordion-item");
-    btn.toggleClass("active").siblings().removeClass("active");
-  });
-
-
-  /*---------- 22. Parallax Effect ----------*/
-  new universalParallax().init();
-
 
   
 
