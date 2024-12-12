@@ -12566,7 +12566,7 @@ blockquote.vs-quote cite:before {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 600px;
+    height: 550px;
     position: relative;
     filter: brightness(0.8) contrast(1.2); /* Ejemplo de filtros para mejorar la imagen */
 }
