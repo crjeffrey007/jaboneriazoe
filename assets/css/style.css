@@ -12561,17 +12561,6 @@ blockquote.vs-quote cite:before {
         }
     }
 
-.call-to-action::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(47 68 85 / 23%);
-    z-index: 1;
-}
-
 .call-to-action {
     background-image: url('assets/img/about/j-zoe-2.jpg');
     background-size: cover;
