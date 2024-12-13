@@ -12581,9 +12581,10 @@ blockquote.vs-quote cite:before {
     z-index: 1; /* Asegura que el overlay esté encima del fondo */
 }
 
-.call-to-action h1, 
+.call-to-action h2, 
 .call-to-action p {
     position: relative; /* Asegura que el texto esté por encima del overlay */
     z-index: 2;
     color: white; /* Hace que el texto sea blanco */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
