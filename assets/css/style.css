@@ -12568,5 +12568,4 @@ blockquote.vs-quote cite:before {
     background-attachment: fixed;
     height: 550px;
     position: relative;
-    filter: brightness(1.2) saturate(1.5) contrast(1.1);
 }
