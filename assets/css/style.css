@@ -12612,30 +12612,38 @@ blockquote.vs-quote cite:before {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    gap: 20px;
 }
 
 /* Columna de las imágenes */
 .col-images-custom {
-    flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 15px;
+    width: calc(70% - 20px); /* 70% de ancho */
 }
 
-.col-images-custom img {
-    max-width: 100%;
+.image-wrapper-custom {
+    flex: 1 1 calc(50% - 10px); /* Dos imágenes por fila */
+    max-width: calc(50% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper-custom img {
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
 /* Columna del círculo */
 .col-circle-custom {
-    flex: 0 0 auto;
+    flex: 0 0 30%; /* 30% de ancho */
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    height: 150px;
     margin: 0 auto;
     position: relative;
 }
@@ -12675,11 +12683,23 @@ blockquote.vs-quote cite:before {
         align-items: center;
     }
 
-    .col-circle-custom {
-        margin-bottom: 20px;
-    }
-
     .col-images-custom {
         width: 100%;
+        justify-content: center;
+    }
+
+    .image-wrapper-custom {
+        flex: 1 1 100%; /* Una imagen por fila */
+        max-width: 100%;
+    }
+
+    .col-circle-custom {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .circle-btn-custom {
+        width: 120px;
+        height: 120px;
     }
 }
