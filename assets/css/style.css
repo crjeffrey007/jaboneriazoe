@@ -12589,89 +12589,97 @@ blockquote.vs-quote cite:before {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-.custom-about-section {
-    padding: 20px 15px;
+/* Contenedor principal */
+.about-area-custom {
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: 40px;
 }
 
-.custom-container {
-    max-width: 1200px;
-    margin: 0 auto;
+/* Contenedor de la sección */
+.container-custom {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-/* Filas */
-.custom-row {
-    display: flex;
     align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 15px;
 }
 
-/* Columna de texto */
-.custom-col-text {
+/* Estilo de la fila */
+.row-custom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Columna de las imágenes */
+.col-images-custom {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    flex: 1;
 }
 
-.custom-image {
-    width: 100%;
-    max-width: 250px;
+.col-images-custom img {
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
-    object-fit: cover;
 }
 
 /* Columna del círculo */
-.custom-col-circle {
+.col-circle-custom {
     flex: 0 0 auto;
-    text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
 }
 
-.custom-circle-btn {
+/* Botón circular */
+.circle-btn-custom {
     position: relative;
-    width: 100px;
-    height: 100px;
-    background: linear-gradient(to bottom, #fdeae0, transparent);
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(135deg, #fdeae0, transparent);
     border-radius: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.custom-btn-icon {
-    font-size: 24px;
+.circle-btn-custom .btn-icon-custom {
+    font-size: 32px;
     color: #333;
 }
 
-.custom-btn-text {
+.circle-btn-custom .btn-text-custom svg {
     position: absolute;
-    bottom: -20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: none;
+    stroke: #333;
     font-size: 12px;
     text-align: center;
-    width: 100%;
 }
 
-/* Responsividad */
+/* Ajustes para dispositivos móviles */
 @media (max-width: 768px) {
-    .custom-row {
+    .row-custom {
         flex-direction: column;
-        gap: 30px;
+        align-items: center;
     }
 
-    .custom-circle-btn {
-        width: 80px;
-        height: 80px;
+    .col-circle-custom {
+        margin-bottom: 20px;
     }
 
-    .custom-btn-icon {
-        font-size: 20px;
+    .col-images-custom {
+        width: 100%;
     }
 }
