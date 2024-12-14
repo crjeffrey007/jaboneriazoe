@@ -12588,3 +12588,90 @@ blockquote.vs-quote cite:before {
     color: white; /* Hace que el texto sea blanco */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
+.custom-about-section {
+    padding: 20px 15px;
+    margin-bottom: 40px;
+}
+
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Filas */
+.custom-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Columna de texto */
+.custom-col-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.custom-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Columna del círculo */
+.custom-col-circle {
+    flex: 0 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-circle-btn {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom, #fdeae0, transparent);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-btn-icon {
+    font-size: 24px;
+    color: #333;
+}
+
+.custom-btn-text {
+    position: absolute;
+    bottom: -20px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .custom-row {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .custom-circle-btn {
+        width: 80px;
+        height: 80px;
+    }
+
+    .custom-btn-icon {
+        font-size: 20px;
+    }
+}
