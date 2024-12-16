@@ -12591,14 +12591,14 @@ blockquote.vs-quote cite:before {
 
 /* Contenedor principal */
 .about-area-custom-boxed {
-    padding: 50px 0;
+    padding: 75px 0;
     margin: 0 auto;
     background-color: #fff; /* Opcional: Fondo blanco */
 }
 
 /* Contenedor centralizado y boxed */
 .container-custom-boxed {
-    max-width: 1200px; /* Anchura máxima */
+    max-width: 1300px; /* Anchura máxima */
     margin: 0 auto;
     padding: 0 15px; /* Espacio interno para dispositivos pequeños */
     display: flex;
