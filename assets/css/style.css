@@ -12589,87 +12589,81 @@ blockquote.vs-quote cite:before {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-/* Contenedor principal */
+
+/* Sección general */
 .about-area-custom-boxed {
-    padding: 75px 0;
-    margin: 0 auto;
-    background-color: #fff; /* Opcional: Fondo blanco */
+    position: relative;
+    background-image: url('assets/img/breadcumb/jabon-arroz-cr.png'); /* Imagen de fondo */
+    background-repeat: no-repeat;
+    background-position: right center; /* El jabón a la derecha */
+    background-size: contain; /* Mantener el jabón visible */
+    background-color: #fff; /* Fondo blanco de soporte */
+    padding: 50px 20px;
 }
 
-/* Contenedor centralizado y boxed */
+/* Contenedor general */
 .container-custom-boxed {
-    max-width: 1300px; /* Anchura máxima */
+    max-width: 1300px; /* Para que sea boxed */
     margin: 0 auto;
-    padding: 0 15px; /* Espacio interno para dispositivos pequeños */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+    position: relative;
+    z-index: 1; /* Asegura que el contenido quede por encima del fondo */
 }
 
-/* Estilo de la fila */
+/* Fila personalizada */
 .row-custom-boxed {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    gap: 20px;
 }
 
-/* Columna de las imágenes */
+/* Columna de imágenes */
 .col-images-custom-boxed {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    width: calc(70% - 20px); /* 70% del ancho */
-}
-
-.image-wrapper-custom-boxed {
-    flex: 1 1 calc(50% - 10px); /* Dos imágenes por fila */
-    max-width: calc(50% - 10px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 1 60%;
 }
 
 .image-wrapper-custom-boxed img {
     width: 100%;
-    height: auto;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Columna del círculo */
 .col-circle-custom-boxed {
-    flex: 0 0 30%; /* 30% del ancho */
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
+    flex: 1 1 40%;
+    text-align: center;
 }
 
-/* Ajustes para dispositivos móviles */
+.circle-btn.style2 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #fdeae0, transparent);
+    position: relative;
+}
+
+/* Responsividad */
 @media (max-width: 768px) {
     .row-custom-boxed {
         flex-direction: column;
-        align-items: center;
-    }
-
-    .col-images-custom-boxed {
-        width: 100%;
-    }
-
-    .image-wrapper-custom-boxed {
-        flex: 1 1 100%;
-        max-width: 100%;
     }
 
     .col-circle-custom-boxed {
         margin-top: 20px;
-        width: 100%;
     }
 
+    .about-area-custom-boxed {
+        background-position: center bottom; /* Ajusta el fondo en pantallas pequeñas */
+        background-size: cover;
+    }
 }
-
