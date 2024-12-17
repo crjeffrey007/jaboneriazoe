@@ -12593,7 +12593,7 @@ blockquote.vs-quote cite:before {
 .about-area-custom-boxed {
     padding: 75px 0;
     margin: 0 auto;
-    background-color: #fff; /* Opcional: Fondo blanco */
+    background: linear-gradient(to bottom, #fce6d9, #ffffff); /* Degradado de arriba hacia abajo */
 }
 
 /* Contenedor centralizado y boxed */
