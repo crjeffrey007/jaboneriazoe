@@ -12594,7 +12594,7 @@ blockquote.vs-quote cite:before {
 .about-area-custom-boxed {
     padding: 75px 0;
     margin: 0 auto;
-    background: linear-gradient(to bottom, #fce6d9, #ffffff); /* Degradado de arriba hacia abajo */
+    background: linear-gradient(to bottom, #ffffff, #fce6d9); /* Degradado de arriba hacia abajo */
 }
 
 /* Contenedor centralizado y boxed */
@@ -12672,21 +12672,6 @@ blockquote.vs-quote cite:before {
         width: 100%;
     }
 
-}
-
-/* Nueva fila de una sola columna */
-.single-column-row {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px; /* Separación con la fila anterior */
-}
-
-/* Ajustes responsivos */
-@media (max-width: 768px) {
-
-    .image-wrapper-custom-boxed {
-        margin-bottom: 15px;
-    }
 }
 
 
