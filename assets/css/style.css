@@ -12689,10 +12689,6 @@ blockquote.vs-quote cite:before {
 
 /* Ajustes responsivos */
 @media (max-width: 768px) {
-    .vs-btn {
-        font-size: 14px;
-        padding: 10px 20px;
-    }
 
     .image-wrapper-custom-boxed {
         margin-bottom: 15px;
