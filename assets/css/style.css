@@ -12687,3 +12687,19 @@ blockquote.vs-quote cite:before {
         margin-bottom: 15px;
     }
 }
+
+.vs-btn {
+    display: inline-flex
+;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 25px;
+    background-color: #242b31;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0px;
+    transition: all 0.3s ease;
+    border: none;
+}
