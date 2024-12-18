@@ -12680,13 +12680,6 @@ blockquote.vs-quote cite:before {
     margin-top: 20px; /* Separación con la fila anterior */
 }
 
-.col-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
 /* Ajustes responsivos */
 @media (max-width: 768px) {
 
