@@ -12672,3 +12672,55 @@ blockquote.vs-quote cite:before {
     }
 
 }
+
+/* Nueva fila de una sola columna */
+.single-column-row {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; /* Separación con la fila anterior */
+}
+
+.col-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estilo del botón */
+.vs-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 25px;
+    background-color: #f8c471; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.vs-btn:hover {
+    background-color: #e67e22; /* Color al pasar el mouse */
+    color: #fff;
+}
+
+.vs-btn i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .vs-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .image-wrapper-custom-boxed {
+        margin-bottom: 15px;
+    }
+}
