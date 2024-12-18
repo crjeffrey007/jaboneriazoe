@@ -1264,6 +1264,7 @@ textarea.is-invalid {
   position: relative;
   z-index: 1;
   text-align: center;
+  border-radius: none;
 }
 .vs-btn:after, .vs-btn:before {
   content: "";
@@ -12688,18 +12689,4 @@ blockquote.vs-quote cite:before {
     }
 }
 
-.vs-btn {
-    display: inline-flex
-;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 25px;
-    background-color: #242b31;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 0px;
-    transition: all 0.3s ease;
-    border: none;
-}
+
